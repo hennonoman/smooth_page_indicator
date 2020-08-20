@@ -10,7 +10,7 @@ typedef OnDotClicked = void Function(int index);
 
 class SmoothPageIndicator extends AnimatedWidget {
   // Page view controller
-  final PageController controller;
+  final  controller;
 
   /// Holds effect configuration to be used in the [IndicatorPainter]
   final IndicatorEffect effect;
